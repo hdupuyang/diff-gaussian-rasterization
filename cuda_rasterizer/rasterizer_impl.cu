@@ -452,3 +452,7 @@ void CudaRasterizer::Rasterizer::backward(
 		(glm::vec3*)dL_dscale,
 		(glm::vec4*)dL_drot);
 }
+
+void CudaRasterizer::Rasterizer::maskForward(){
+	
+}
