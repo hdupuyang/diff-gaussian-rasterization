@@ -83,7 +83,7 @@ namespace CudaRasterizer
 			float* dL_dsh,
 			float* dL_dscale,
 			float* dL_drot);
-		static void maskForward(void);
+		static void maskForward();
 	};
 };
 
